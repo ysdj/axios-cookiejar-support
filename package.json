@@ -22,6 +22,7 @@
     "clean": "rimraf lib/**/*.js",
     "test": "mocha --require intelli-espower-loader"
   },
+  "install": "npm run build",
   "dependencies": {
     "@types/tough-cookie": "^2.3.3",
     "is-redirect": "^1.0.0",
